@@ -1,0 +1,73 @@
+*{
+	padding:0 
+    margin:0;
+box-sizing: border-box; 
+ }
+ main{
+ 	width:70%;
+ 	margin:auto;
+ 	padding:50px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	background-color: #fff;
+ 	box-shadow: 0 0 40px 20px rgba(0,0,0,0.3);
+}  
+body{
+	background: #efefef;
+	font-family:Marck Script;
+}
+@font-face{
+	font-family:Marck Script;
+	src:url(../fonts/MarckScript-Regular.ttf);
+}
+.photo{
+	width: calc(50% - 40px);
+	height:calc((35vw - 40px) /16 * 9);
+	margin: 20px;
+	background:orange; 
+	background-position:center;
+	background-size: cover;
+
+}
+h1{
+	width: 100%;
+	text-align:center;
+	font-size: 48px;
+}
+.photo1{
+	background-image: url(../img/web01.jpg);
+}
+.photo2{
+	background-image: url(../img/web02.jpg);
+}
+.photo3{
+	background-image: url(../img/web03.jpg);
+}
+.photo4{
+	background-image: url(../img/web04.jpg);
+}
+.photo5{
+	background-image: url(../img/web05.jpg);
+}
+.photo6{
+	background-image: url(../img/web06.jpg);
+}
+.photo7{
+	background-image: url(../img/web07.jpg);
+}
+.photo8{
+	background-image: url(../img/web08.jpg);
+}
+.photo9{
+	background-image: url(../img/web09.jpg);
+}
+.photo10{
+	background-image: url(../img/web10.jpg);
+}
+.photo11{
+	background-image: url(../img/web11.jpg);
+}
+.photo12{
+	background-image: url(../img/web12.jpg);
+}
